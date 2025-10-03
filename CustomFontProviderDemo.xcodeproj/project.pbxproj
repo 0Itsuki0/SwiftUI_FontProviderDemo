@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		983F5C2A2E8F38CB00A4C76B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 983F5C292E8F38CB00A4C76B /* README.md */; };
+		983F5C2C2E8F6E3700A4C76B /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 983F5C2B2E8F6E3700A4C76B /* demo.gif */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		983F5BF22E8E198B00A4C76B /* CustomFontProviderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFontProviderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		983F5C292E8F38CB00A4C76B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		983F5C2B2E8F6E3700A4C76B /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		983F5BE92E8E198B00A4C76B = {
 			isa = PBXGroup;
 			children = (
+				983F5C292E8F38CB00A4C76B /* README.md */,
+				983F5C2B2E8F6E3700A4C76B /* demo.gif */,
 				983F5BF42E8E198B00A4C76B /* CustomFontProviderDemo */,
 				983F5BF32E8E198B00A4C76B /* Products */,
 			);
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983F5C2A2E8F38CB00A4C76B /* README.md in Resources */,
+				983F5C2C2E8F6E3700A4C76B /* demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +197,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -242,6 +254,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -251,6 +264,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CustomFontProviderDemo/CustomFontProviderDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NLTYK5T6U3;
@@ -283,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CustomFontProviderDemo/CustomFontProviderDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NLTYK5T6U3;
