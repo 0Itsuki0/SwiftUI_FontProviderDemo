@@ -10,7 +10,7 @@ Specifically,
 - Watch for systemwide font changes
 
 
-For more details, please refer to my article: [SwiftUI: Provide/Use Systemwide Fonts]()
+For more details, please refer to my article: [SwiftUI: Provide/Use Systemwide Fonts](https://medium.com/@itsuki.enjoy/swiftui-provide-use-systemwide-fonts-37ddbcfe2c4e)
 
 
 ![](./demo.gif)
